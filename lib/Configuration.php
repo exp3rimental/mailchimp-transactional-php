@@ -91,6 +91,11 @@ class Configuration
         return $this->requestClient;
     }
 
+    public function setHost($host)
+    {
+        $this->host = $host;
+    }
+
     public function getHost()
     {
         return $this->host;
